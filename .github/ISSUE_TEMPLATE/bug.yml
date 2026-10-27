@@ -1,0 +1,19 @@
+name: Bug report
+description: Report a reproducible analyzer defect with synthetic data.
+body:
+  - type: textarea
+    attributes:
+      label: Reproduction
+      description: Use a minimal synthetic transcript; never attach secrets or personal data.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Version and runtime
+    validations:
+      required: true
